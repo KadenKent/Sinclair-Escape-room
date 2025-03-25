@@ -3,18 +3,20 @@ import streamlit as st
 st.markdown("<h1 style='text-align: center;'>Escape Zaroff's Castle</h1>", unsafe_allow_html=True)
 st.markdown("<h3 style='text-align: center;'>Answer quetions to unlock the code and uncipher the code.</h3>", unsafe_allow_html=True)
 
-.question-text {
-    font-size: 18px !important;
-    font-weight: bold;
-}
+#.question-text {
+    #font-size: 18px !important;
+    #font-weight: bold;
+#}
     </style>
 """, unsafe_allow_html=True)
 # Question 1
-st.header("<h4 1. What is  short and sharp as a word?")
+st.header("1. What is  short and sharp as a word?")
 options_1 = ['Staccato', 'Palpable', 'Extermity', 'Scruples']
 answer_1 = st.radio("Staccato:", options_1)
 #Question 2
-
+st.header("2. What is a loosely curled fur made from lamb skin?")
+option_2 = ['Capital','Droll','Analytical','Astrakhan']
+answer_2 = st.radio("Astrakhan:", option_2)
 
 # Add a submit_button
 submit_button = st.button("Submit")
