@@ -23,6 +23,8 @@ if submit_button:
         st.subheader("Correct! Here is a hint, Caesar Cipher")
     elif answer_2 == "Astrakhan":
             st.subheader("Correct! decipher this code, abzivlml")
+    elif answer_3 == "Entertain":
+        st.subheader("Correct! Decipher this code, cpnlulyl")
     if answer_1 == "Staccato" and answer_2 == "Astrakhan":
         st.subheader("Correct! decipher this code, abzivlml")
     else:
