@@ -23,6 +23,6 @@ answer_1 = st.radio("scruples:", options_1)
 
 # Add a submit_button
     if answer_1 == "Staccato":
-        st.subheader("Correct! Here is a hint, Caesar Cipher")
+    st.subheader("Correct! Here is a hint, Caesar Cipher")
     else:
         st.subheader("Incorrect. try again!")
