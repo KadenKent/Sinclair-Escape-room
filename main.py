@@ -5,7 +5,13 @@ st.markdown("<h3 style='text-align: center;'>Answer quetions to unlock the code 
 # Background color
 st.markdown("""
     <style>
-        .reportview-container {
+        /* Set the background color of the main content area */
+        .css-18e3th9 {
+            background-color: #87CEFA !important;  # Light Sky Blue color
+        }
+
+        /* Optionally, you can also change the background color of the sidebar */
+        .css-1d391kg {
             background-color: #87CEFA !important;  # Light Sky Blue color
         }
     </style>
