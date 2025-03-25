@@ -6,7 +6,7 @@ st.markdown("<h2 style='text-align: center;'>Answer quetions to unlock the code 
 st.markdown("""
   <style>
     body {
-      background-color: #ADD8E6;
+      background-color: #00008B;
     }
   </style>
 """, unsafe_allow_html=True)
