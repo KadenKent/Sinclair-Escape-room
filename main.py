@@ -7,7 +7,7 @@ st.markdown("<h3 style='text-align: center;'>Answer quetions to unlock the code 
     #font-size: 18px !important;
     #font-weight: bold;
 #}
-    </style>
+</style>
 """, unsafe_allow_html=True)
 # Question 1
 st.header("1. What is  short and sharp as a word?")
