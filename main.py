@@ -16,3 +16,7 @@ st.markdown("""
         }
     </style>
 """, unsafe_allow_html=True)
+# Question 1
+st.header("1. What is  short and sharp as a word?")
+options_1 = ['Staccato', 'Palpable', 'Extermity', 'Scruples']
+answer_1 = st.radio("scruples:", options_1)
