@@ -19,3 +19,5 @@ if submit_button:
         st.subheader("Correct! Here is a hint, Caesar Cipher")
     else:
         st.subheader("Incorrect. try again!")
+        if answer_2 == "Astrakhan":
+            st.subheader("Correct! decipher this code, abzivlml")
