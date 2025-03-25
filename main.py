@@ -16,7 +16,7 @@ st.text("3. What is the author's purpose?")
 option_3 = ['Entertain','Inform','Presuade','Describe']
 answer_3 = st.radio("Entertain:", option_3)
 #Question 4
-st.text("4. What did Zaroff shoot while Rainsford was in bed?".)
+st.text("4. What did Zaroff shoot while Rainsford was in bed?")
 option_4 = ['A human','A deer','A cape buffalo','A dog']
 answer_4 = st.radio("A dog:", option_4)
 
