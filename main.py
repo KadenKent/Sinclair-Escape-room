@@ -27,7 +27,6 @@ if submit_button:
         st.text("Correct! Here is a hint, Caesar Cipher")
     else:
         st.text("Incorrect. try again.")
-        
     if answer_2 == "Astrakhan":
             st.text("Correct! decipher this code, abzivlml")
     else:
@@ -36,7 +35,7 @@ if submit_button:
         st.text("Correct! Decipher this code, cpnlulyl")
     else:
         st.text("Incorrect. try again.")
-        if answer_4 == "A dog":
+    if answer_4 == "A dog":
             st.text("Correct! Decipher this code, Qhl fvqh d acxj evwh vvh pabmlkz KSZVXXF ooac vlx bquulkz 3,7,6,2,5,1,4")
-        else:
+    else:
             st.text("Incorrect. try again.")
