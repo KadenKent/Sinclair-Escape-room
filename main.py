@@ -20,5 +20,9 @@ st.markdown("""
 st.header("1. What is  short and sharp as a word?")
 options_1 = ['Staccato', 'Palpable', 'Extermity', 'Scruples']
 answer_1 = st.radio("scruples:", options_1)
-if answer_1 == "Staccato":
-    st.subheader("The final code is: #######")
+
+# Add a submit_button
+    if answer_1 == "Staccato":
+        st.subheader("Correct! Here is a hint, Caesar Cipher")
+    else:
+        st.subheader("Incorrect. try again!")
