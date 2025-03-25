@@ -17,7 +17,10 @@ submit_button = st.button("Submit")
 if submit_button:
     if answer_1 == "Staccato":
         st.subheader("Correct! Here is a hint, Caesar Cipher")
+    elif answer_2 == "Astrakhan":
+            st.subheader("Correct! decipher this code, abzivlml")
+    elif answer_1 == "Staccato" and answer_2 == "Astrakhan":
+        st.subheader("Correct! decipher this code, abzivlml")
     else:
         st.subheader("Incorrect. try again!")
-        if answer_2 == "Astrakhan":
-            st.subheader("Correct! decipher this code, abzivlml")
+
