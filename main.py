@@ -5,7 +5,7 @@ st.markdown("<h3 style='text-align: center;'>Answer quetions to unlock the code 
 # Background color
 st.markdown("""
     <style>
-        body {
+        .reportview-container {
             background-color: #87CEFA !important;  # Light Sky Blue color
         }
     </style>
