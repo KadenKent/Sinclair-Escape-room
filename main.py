@@ -11,6 +11,10 @@ answer_1 = st.radio("Staccato:", options_1)
 st.header("2. What is a loosely curled fur made from lamb skin?")
 option_2 = ['Capital','Droll','Analytical','Astrakhan']
 answer_2 = st.radio("Astrakhan:", option_2)
+#Question 3
+st.header("3. What is the author's purpose?")
+option_3 = ['Entertain','Inform','Presuade','Describe']
+answer_3 = st.radio("Entertain:", option_3)
 
 # Add a submit_button
 submit_button = st.button("Submit")
