@@ -14,7 +14,7 @@ st.markdown(f'<p style="font-size: 12px; text-align: center;">{passage}</p>', un
 
 # Question 1
 st.text("1. What is  short and sharp as a word?")
-options_1 = ['Staccato', 'Palpable', 'Extermity', 'Scruples']
+options_1 = ['Extremity', 'Palpable','Staccato', 'Scruples']
 answer_1 = st.radio("", options_1)
 #Question 2
 st.text("2. What is a loosely curled fur made from lamb skin?")
