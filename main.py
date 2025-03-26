@@ -5,10 +5,13 @@ st.markdown("<h3 style='text-align: center;'>Answer quetions to unlock the code 
 
 #the background story
 passage = """
-This is the passage that will be displayed in 11px font size.
-You can add more text here, and it will still be rendered with the same font size.
-"""
+After your strange dinner with General Zaroff, Ivan directs you to your room. You try to sleep but you can't.
+Then you hear a gunshot and you get up and look out the window and down below you see the eyes of Zaroff's dogs.
+You go to the door and it’s locked with a seven digit code lock.
+You look around the room and you see strange writing on the walls.
+You look closer and it's a secret message."""
 st.markdown(f'<p style="font-size: 11px;">{passage}</p>', unsafe_allow_html=True)
+
 # Question 1
 st.text("1. What is  short and sharp as a word?")
 options_1 = ['Staccato', 'Palpable', 'Extermity', 'Scruples']
