@@ -8,6 +8,7 @@ passage = """
 This is the passage that will be displayed in 11px font size.
 You can add more text here, and it will still be rendered with the same font size.
 """
+st.markdown(f'<p style="font-size: 11px;">{passage}</p>', unsafe_allow_html=True)
 # Question 1
 st.text("1. What is  short and sharp as a word?")
 options_1 = ['Staccato', 'Palpable', 'Extermity', 'Scruples']
