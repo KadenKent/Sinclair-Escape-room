@@ -35,11 +35,11 @@ answer_5 = st.radio("",option_5)
 # Question 6
 st.text("6. What did Rainsford lose when he fell of the boat?")
 option_6 = ('Cigar','His watch','A coin','his shoe')
-answer_6 = st.radio("Cigar",option_6)
+answer_6 = st.radio("",option_6)
 #Question 7
 st.text("7. What cracked Zaroff\'s rib cage?")
 option_7 = ('his dog','an elk','a moose','a cape buffalo')
-answer_7 = st.radio("a cape buffalo",option_7)
+answer_7 = st.radio("",option_7)
 #Question 8
 st.text("")
 option_8 = ('','','','')
