@@ -15,19 +15,19 @@ st.markdown(f'<p style="font-size: 12px; text-align: center;">{passage}</p>', un
 # Question 1
 st.text("1. What is  short and sharp as a word?")
 options_1 = ['Staccato', 'Palpable', 'Extermity', 'Scruples']
-answer_1 = st.radio("Staccato:", options_1)
+answer_1 = st.radio("", options_1)
 #Question 2
 st.text("2. What is a loosely curled fur made from lamb skin?")
 option_2 = ['Capital','Droll','Analytical','Astrakhan']
-answer_2 = st.radio(":", option_2)
+answer_2 = st.radio("", option_2)
 #Question 3
 st.text("3. What is the author's purpose?")
 option_3 = ['Entertain','Inform','Presuade','Describe']
-answer_3 = st.radio("Entertain:", option_3)
+answer_3 = st.radio("", option_3)
 #Question 4
 st.text("4. What did Zaroff shoot while Rainsford was in bed?")
 option_4 = ['A human','A deer','A cape buffalo','A dog']
-answer_4 = st.radio("A dog:", option_4)
+answer_4 = st.radio("", option_4)
 
 # Add a submit_button
 submit_button = st.button("Submit")
