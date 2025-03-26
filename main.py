@@ -19,7 +19,7 @@ answer_1 = st.radio("Staccato:", options_1)
 #Question 2
 st.text("2. What is a loosely curled fur made from lamb skin?")
 option_2 = ['Capital','Droll','Analytical','Astrakhan']
-answer_2 = st.radio("Bob Ross:", option_2)
+answer_2 = st.radio(":", option_2)
 #Question 3
 st.text("3. What is the author's purpose?")
 option_3 = ['Entertain','Inform','Presuade','Describe']
