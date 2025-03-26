@@ -35,11 +35,11 @@ answer_5 = st.radio("",option_5)
 # Question 6
 st.text("6. What did Rainsford lose when he fell of the boat?")
 option_6 = ('Cigar','His watch','A coin','his shoe')
-answer_6 = st.radio("",option_6)
+answer_6 = st.radio("Cigar",option_6)
 #Question 7
 st.text("7. What cracked Zaroff\'s rib cage?")
 option_7 = ('his dog','an elk','a moose','a cape buffalo')
-answer_7 = st.radio("",option_7)
+answer_7 = st.radio("a cape buffalo",option_7)
 #Question 8
 st.text("")
 option_8 = ('','','','')
@@ -49,18 +49,18 @@ answer_8 = st.radio("",option_8)
 submit_button = st.button("Submit")
 if submit_button:
     if answer_1 == "Staccato" and answer_5 == "Caribbean":
-        st.text("Correct! Here is a hint, Caesar Cipher")
+        st.text("Here is a hint, Caesar Cipher")
     else:
         st.text("Incorrect. try again.")
     if answer_2 == "Astrakhan" and answer_6 == "Cigar":
-            st.text("Correct! decipher this code, abzivlml")
+            st.text("decipher this code, abzivlml")
     else:
         st.text("Incorrect. try again.")
     if answer_3 == "Entertain" and answer_7 == "cape buffalo":
-        st.text("Correct! Decipher this code, cpnlulyl")
+        st.text("Decipher this code, cpnlulyl")
     else:
         st.text("Incorrect. try again.")
     if answer_4 == "A dog" and "":
-            st.text("Correct! Decipher this code, Qhl fvqh d acxj evwh vvh pabmlkz KSZVXXF ooac vlx bquulkz 3,7,6,2,5,1,4")
+            st.text("Decipher this code, Qhl fvqh d acxj evwh vvh pabmlkz KSZVXXF ooac vlx bquulkz 3,7,6,2,5,1,4")
     else:
-            st.text("Incorrect. try again.")
+            st.text("")
