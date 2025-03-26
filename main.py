@@ -28,6 +28,22 @@ answer_3 = st.radio("", option_3)
 st.text("4. What did Zaroff shoot while Rainsford was in bed?")
 option_4 = ['A human','A deer','A cape buffalo','A dog']
 answer_4 = st.radio("", option_4)
+#question 5
+st.text("5. Where was Rainsford heading?")
+option_5 = ('Africa','the Rockies','Africa','Caribbean')
+answer_5 = st.radio("",option_5)
+# Question 6
+st.text("6. What did Rainsford lose when he fell of the boat?")
+option_6 ('Cigar','His watch','A coin','his shoe')
+answer_6 = st.radio("",option_6)
+#Question 7
+st.text("7. What cracked Zaroff\'s rib cage?")
+option_7('his dog','an elk',a moose','a cape buffalo')
+answer_7 = st.radio("",option_7)
+#Question 8
+st.text("")
+option_8('','','','')
+answer_8 = st.radio("",option_8)
 
 # Add a submit_button
 submit_button = st.button("Submit")
