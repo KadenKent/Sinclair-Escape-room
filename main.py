@@ -8,7 +8,7 @@ st.markdown(
     """
     <style>
     body {
-        background-color: #FF5733;  # Use hex code
+        background-color: lightblue; /* Chnage the color*/
     }
     </style>
     """, 
@@ -22,7 +22,7 @@ Then you hear a gunshot and you get up and look out the window and down below yo
 You go to the door and it’s locked with a seven digit code lock.
 You look around the room and you see strange writing on the walls.
 You look closer and it's a secret message."""
-st.markdown(f'<p style="font-size: 11px; text-align: center;">{passage}</p>', unsafe_allow_html=True)
+st.markdown(f'<p style="font-size: 12px; text-align: center;">{passage}</p>', unsafe_allow_html=True)
 
 # Question 1
 st.text("1. What is  short and sharp as a word?")
