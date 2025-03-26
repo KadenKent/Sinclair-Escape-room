@@ -3,18 +3,6 @@ import streamlit as st
 st.markdown('<h1 style="font-size: 24px; text-align: center;">Escape Zaroff\'s Castle</h1>', unsafe_allow_html=True)
 st.markdown('<h3 style="font-size: 18px; text-align: center;">Answer quetions to unlock the code and uncipher the code.</h3>', unsafe_allow_html=True)
 
-#background color
-st.markdown(
-    """
-    <style>
-    body {
-        background-color: lightblue; /* Chnage the color*/
-    }
-    </style>
-    """, 
-    unsafe_allow_html=True
-)
-
 #background passage
 passage = """
 After your strange dinner with General Zaroff, Ivan directs you to your room. You try to sleep but you can't.
@@ -31,7 +19,7 @@ answer_1 = st.radio("Staccato:", options_1)
 #Question 2
 st.text("2. What is a loosely curled fur made from lamb skin?")
 option_2 = ['Capital','Droll','Analytical','Astrakhan']
-answer_2 = st.radio("Astrakhan:", option_2)
+answer_2 = st.radio("Bob Ross:", option_2)
 #Question 3
 st.text("3. What is the author's purpose?")
 option_3 = ['Entertain','Inform','Presuade','Describe']
