@@ -48,19 +48,19 @@ answer_8 = st.radio("",option_8)
 # Add a submit_button
 submit_button = st.button("Submit")
 if submit_button:
-    if answer_1 == "Staccato":
+    if answer_1 == "Staccato" and answer_5 == "Caribbean":
         st.text("Correct! Here is a hint, Caesar Cipher")
     else:
         st.text("Incorrect. try again.")
-    if answer_2 == "Astrakhan":
+    if answer_2 == "Astrakhan" and answer_6 == "Cigar":
             st.text("Correct! decipher this code, abzivlml")
     else:
         st.text("Incorrect. try again.")
-    if answer_3 == "Entertain":
+    if answer_3 == "Entertain" and answer_7 "cape buffalo:
         st.text("Correct! Decipher this code, cpnlulyl")
     else:
         st.text("Incorrect. try again.")
-    if answer_4 == "A dog":
+    if answer_4 == "A dog" and ":
             st.text("Correct! Decipher this code, Qhl fvqh d acxj evwh vvh pabmlkz KSZVXXF ooac vlx bquulkz 3,7,6,2,5,1,4")
     else:
             st.text("Incorrect. try again.")
