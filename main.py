@@ -4,7 +4,8 @@ st.markdown("<h1 style='text-align: center;'>Escape Zaroff's Castle</h1>", unsaf
 st.markdown("<h3 style='text-align: center;'>Answer quetions to unlock the code and uncipher the code.</h3>", unsafe_allow_html=True)
 
 #the background story
-st.markdown('<h4 style="font-size: 11px;">After your strange dinner with General Zaroff, Ivan directs you to your room. You try to sleep but you can't. Then you hear a gunshot and you get up and look out the window and down below you see the eyes of Zaroff's dogs. You go to the door and it’s locked with a seven digit code lock. You look around the room and you see strange writing on the walls. You look closer and it's a secret message.</h4>', unsafe_allow_html=True)
+passage = """
+After your strange dinner with General Zaroff, Ivan directs you to your room. You try to sleep but you can't. Then you hear a gunshot and you get up and look out the window and down below you see the eyes of Zaroff's dogs. You go to the door and it’s locked with a seven digit code lock. You look around the room and you see strange writing on the walls. You look closer and it's a secret message."""
 # Question 1
 st.text("1. What is  short and sharp as a word?")
 options_1 = ['Staccato', 'Palpable', 'Extermity', 'Scruples']
