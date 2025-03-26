@@ -6,14 +6,15 @@ st.markdown('<h3 style="font-size: 18px; text-align: center;">Answer quetions to
 #background color
 st.markdown(
     """
+    <style>
     body {
-        background-color: lightblue
+        background-color: lightblue;
     }
     </style>
-    """,
+    """, 
     unsafe_allow_html=True
 )
-#the background story
+
 passage = """
 After your strange dinner with General Zaroff, Ivan directs you to your room. You try to sleep but you can't.
 Then you hear a gunshot and you get up and look out the window and down below you see the eyes of Zaroff's dogs.
