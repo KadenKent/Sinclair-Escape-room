@@ -3,6 +3,16 @@ import streamlit as st
 st.markdown('<h1 style="font-size: 24px; text-align: center;">Escape Zaroff\'s Castle</h1>', unsafe_allow_html=True)
 st.markdown('<h3 style="font-size: 18px; text-align: center;">Answer quetions to unlock the code and uncipher the code.</h3>', unsafe_allow_html=True)
 
+#background color
+st.markdown(
+    """
+    body {
+        background-color:lightblue
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 #the background story
 passage = """
 After your strange dinner with General Zaroff, Ivan directs you to your room. You try to sleep but you can't.
