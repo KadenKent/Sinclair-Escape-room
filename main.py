@@ -4,7 +4,7 @@ st.markdown("<h1 style='text-align: center;'>Escape Zaroff's Castle</h1>", unsaf
 st.markdown("<h3 style='text-align: center;'>Answer quetions to unlock the code and uncipher the code.</h3>", unsafe_allow_html=True)
 
 #the background story
-st.markdown('<h1 style="font-size: 50px;">This is a large font</h1>', unsafe_allow_html=True)
+st.markdown('<h4 style="font-size: 11px;">This is a large font</h4>', unsafe_allow_html=True)
 # Question 1
 st.text("1. What is  short and sharp as a word?")
 options_1 = ['Staccato', 'Palpable', 'Extermity', 'Scruples']
