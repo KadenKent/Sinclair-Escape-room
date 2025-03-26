@@ -7,7 +7,7 @@ st.markdown('<h3 style="font-size: 18px; text-align: center;">Answer quetions to
 st.markdown(
     """
     body {
-        background-color:lightblue
+        background-color: lightblue
     }
     </style>
     """,
