@@ -34,7 +34,7 @@ option_5 = ('Africa','the Rockies','Africa','Caribbean')
 answer_5 = st.radio("",option_5)
 # Question 6
 st.text("6. What did Rainsford lose when he fell of the boat?")
-option_6 ('Cigar','His watch','A coin','his shoe')
+option_6 = ('Cigar','His watch','A coin','his shoe')
 answer_6 = st.radio("",option_6)
 #Question 7
 st.text("7. What cracked Zaroff\'s rib cage?")
