@@ -4,12 +4,16 @@ st.markdown('<h1 style="font-size: 24px; text-align: center;">Escape Zaroff\'s C
 st.markdown('<h3 style="font-size: 18px; text-align: center;">Answer quetions to unlock the code and uncipher the code.</h3>', unsafe_allow_html=True)
 
 #background color
-[theme]
-primaryColor="#FF4B4B"
-backgroundColor="#FFFFFF"
-secondaryBackgroundColor="#F0F2F6"
-textColor="#31333F"
-font="sans serif"
+st.markdown(
+    """
+    <style>
+    body {
+        background-color: #FF5733;  # Use hex code
+    }
+    </style>
+    """, 
+    unsafe_allow_html=True
+)
 
 #background passage
 passage = """
