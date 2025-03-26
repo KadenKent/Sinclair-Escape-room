@@ -7,6 +7,9 @@ st.markdown('<h3 style="font-size: 18px; text-align: center;">Answer quetions to
 [theme]
 primaryColor="#FF4B4B"
 backgroundColor="#FFFFFF"
+secondaryBackgroundColor="#F0F2F6"
+textColor="#31333F"
+font="sans serif"
 
 #background passage
 passage = """
