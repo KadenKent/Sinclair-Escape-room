@@ -38,7 +38,7 @@ option_6 ('Cigar','His watch','A coin','his shoe')
 answer_6 = st.radio("",option_6)
 #Question 7
 st.text("7. What cracked Zaroff\'s rib cage?")
-option_7('his dog','an elk',a moose','a cape buffalo')
+option_7('his dog','an elk','a moose','a cape buffalo')
 answer_7 = st.radio("",option_7)
 #Question 8
 st.text("")
