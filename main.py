@@ -1,5 +1,4 @@
 import streamlit as st
-import string_utils
 # Title and subtitle code
 st.markdown('<h1 style="font-size: 24px; text-align: center;">Escape Zaroff\'s Castle</h1>', unsafe_allow_html=True)
 st.markdown('<h3 style="font-size: 18px; text-align: center;">Answer quetions to unlock the code and uncipher the code.</h3>', unsafe_allow_html=True)
@@ -66,7 +65,7 @@ if submit_button:
     else:
             st.text("Incorrect")
 
-st.text(scramble("12334"))
+st.text(scramble("8927123"))
 
 user_input = st.text_input("Enter number code")
 if user_input == "12334":
