@@ -53,7 +53,7 @@ if submit_button:
     else:
         st.text("Incorrect. try again.")
     if answer_2 == "Astrakhan" and answer_6 == "Cigar":
-            st.text("decipher this code, abzivlml")
+            st.text("Decipher this code, abzivlml")
     else:
         st.text("Incorrect. try again.")
     if answer_3 == "Entertain" and answer_7 == "a cape buffalo":
@@ -61,8 +61,11 @@ if submit_button:
     else:
         st.text("Incorrect. try again.")
     if answer_4 == "A human" and answer_8 == "Because regular animals bore him":
-            st.text("Decipher this code, Qhl fvqh d acxj evwh vvh pabmlkz KSZVXXF ooac vlx bquulkz 3,7,6,2,5,1,4")
+            st.text("Mgjcedqedx khrvi qmfseev")
     else:
-            st.text("12334")
+            st.text("Incorrect")
+
+st.text(scramble("12334"))
 
 user_input = st.text_input("Enter number code")
+if user_input == "12334"
