@@ -41,8 +41,8 @@ st.text("7. What cracked Zaroff\'s rib cage?")
 option_7 = ('his dog','an elk','a moose','a cape buffalo')
 answer_7 = st.radio("",option_7)
 #Question 8
-st.text("")
-option_8 = ('','','','')
+st.text("Why does Zaroff hunt humans?")
+option_8 = ('He wants to  have a competition','Because regular animals bore him','Because he is a Cossack','Becuase he needs better trophies')
 answer_8 = st.radio("",option_8)
 
 # Add a submit_button
@@ -60,7 +60,7 @@ if submit_button:
         st.text("Decipher this code, cpnlulyl")
     else:
         st.text("Incorrect. try again.")
-    if answer_4 == "A dog" and "":
+    if answer_4 == "A dog" and "Because regular animals bore him":
             st.text("Decipher this code, Qhl fvqh d acxj evwh vvh pabmlkz KSZVXXF ooac vlx bquulkz 3,7,6,2,5,1,4")
     else:
             st.text("")
