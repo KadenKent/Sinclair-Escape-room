@@ -56,7 +56,7 @@ if submit_button:
             st.text("decipher this code, abzivlml")
     else:
         st.text("Incorrect. try again.")
-    if answer_3 == "Entertain" and answer_7 == "cape buffalo":
+    if answer_3 == "Entertain" and answer_7 == "a cape buffalo":
         st.text("Decipher this code, cpnlulyl")
     else:
         st.text("Incorrect. try again.")
