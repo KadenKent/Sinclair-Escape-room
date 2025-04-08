@@ -60,7 +60,7 @@ if submit_button:
         st.text("Decipher this code, cpnlulyl")
     else:
         st.text("Incorrect. try again.")
-    if answer_4 == "A dog" and "Because regular animals bore him":
+    if answer_4 == "A human" and "Because regular animals bore him":
             st.text("Decipher this code, Qhl fvqh d acxj evwh vvh pabmlkz KSZVXXF ooac vlx bquulkz 3,7,6,2,5,1,4")
     else:
             st.text("")
