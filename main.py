@@ -66,7 +66,7 @@ if submit_button:
     else:
             st.text("Incorrect")
 
-st.text(scramble("8927123"))
+st.text(string_utils.scramble("8927123"))
 
 user_input = st.text_input("Enter number code")
 if user_input == "12334":
