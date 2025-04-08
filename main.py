@@ -64,3 +64,5 @@ if submit_button:
             st.text("Decipher this code, Qhl fvqh d acxj evwh vvh pabmlkz KSZVXXF ooac vlx bquulkz 3,7,6,2,5,1,4")
     else:
             st.text("")
+
+user_input = st.text_input("Enter number code")
