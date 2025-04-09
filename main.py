@@ -65,9 +65,10 @@ if submit_button:
             st.text("Mgjcedqedx khrvi qmfseev")
     else:
             st.text("Incorrect")
-
-st.text(string_utils.scramble("8927123"))
-
+        if answer_1 == "Staccato" and answer_2 == "Astrakhan" and answer_3 == "A human" and answer_5 == "Carribbean" and answer_6 == "Cigar" and answer_7 =="a cape buffalo" and answer_8 == "Because regular animals bore him":
+            st.text(string_utils.scramble("8927123"))
+        else:
+            st.text("an answer is wrong")
 user_input = st.text_input("Enter number code")
 if user_input == "12334":
     st.text("You are correct")
