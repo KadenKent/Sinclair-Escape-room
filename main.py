@@ -62,7 +62,7 @@ if submit_button:
     else:
         st.text("Incorrect. try again.")
     if answer_4 == "A human" and answer_8 == "Because regular animals bore him":
-            st.text("Mgjcedqedx khrvi qmfseev")
+            st.text("Lav nhpfhjl rrr dpuwtuy vq xkw vfrehgw gkuee")
     else:
         st.text("Incorrect. Try again.")
 #st.text(string_utils.scramble("8927123"))
